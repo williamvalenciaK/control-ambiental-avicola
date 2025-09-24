@@ -22,8 +22,8 @@ DHT dht(DHTPIN, DHTTYPE);
 #define RELE_FRIO 52
 
 // Valores objetivo (setpoints)
-float tempSet = 25.0;   // °C
-float humSet  = 60.0;   // % HR
+float tempSet = 22.0;   // °C
+float humSet  = 50.0;   // % HR
 
 // Variables globales para acciones
 String accionh = "Inactivo"; // humedad
